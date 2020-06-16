@@ -1,3 +1,27 @@
+.leftpart_wrap .leftpart_bottom .social_wrap ul {
+    margin: 0px;
+    list-style-type: none;
+}
+
+.leftpart_wrap .leftpart_bottom .social_wrap ul li {
+    margin: 0px 10px 0px 0px;
+    display: inline-block;
+}
+
+.leftpart_wrap .leftpart_bottom .social_wrap ul li:last-child {
+    margin-right: 0px;
+}
+
+.leftpart_wrap .leftpart_bottom .social_wrap ul li a {
+    text-decoration: none;
+    color: #fff;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
 .leftpart_wrap .leftpart_bottom .social_wrap ul li a:hover {
     color: #E3872D;
 }
