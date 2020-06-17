@@ -117,7 +117,7 @@
         margin: 0% 0% 0% 30%;
         visibility: visible;
         transform: translate3d(0px, 0px, 0px);
-        -webkit-animation: latir infinite 3s linear;
+        -webkit-animation: border-box;
         animation: latir infinite 3s linear;
     }
     
