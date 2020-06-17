@@ -206,17 +206,6 @@
 }
 
 .header_wrap .image_wrap img {
-    /* border-radius: 100%;
-    background-position: 0% 0%;
-    background-size: 100px;
-    background-repeat: no-repeat;
-    background-image: url("../img/diegovenegas.jpg");
-    border: 8px solid rgba(255, 255, 255, .5);
-    display: block;
-    height: 250px;
-    width: 250px;
-    margin: 0% 0% 0% 0%;
-    visibility: visible; */
     border-radius: 100%;
     border: 8px solid rgba(255, 255, 255, .5);
     height: 250px;
@@ -231,47 +220,4 @@
     font-weight: 600;
     margin-top: 0px;
     margin-bottom: 0px;
-}
-
-.header_wrap .name_holder h3 {
-    font-family: "Montserrat";
-    text-transform: uppercase;
-    color: #fff;
-    font-size: 50px;
-    font-weight: 300;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-.header_wrap .name_holder h3 span {
-    font-weight: 500;
-    color: #E3872D;
-}
-
-.header_wrap .text_typing {
-    width: 100%;
-    height: auto;
-    float: left;
-    -webkit-box-sizing: border-box;
-    /* Safari/Chrome, other WebKit */
-    -moz-box-sizing: border-box;
-    /* Firefox, other Gecko */
-    box-sizing: border-box;
-    /* Opera/IE 8+ */
-}
-
-.header_wrap .text_typing p {
-    color: #fff;
-    font-size: 24px;
-    font-family: "Montserrat";
-}
-
-.animation_text_word {
-    font-weight: 600;
-    line-height: 1;
-    font-family: "Montserrat";
-}
-
-.about_wrap .animation_text_word {
-    color: #E3872D;
 }

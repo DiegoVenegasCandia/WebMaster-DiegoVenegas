@@ -1,0 +1,42 @@
+.header_wrap .name_holder h3 {
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 300;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.header_wrap .name_holder h3 span {
+    font-weight: 500;
+    color: #E3872D;
+}
+
+.header_wrap .text_typing {
+    width: 100%;
+    height: auto;
+    float: left;
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    /* Opera/IE 8+ */
+}
+
+.header_wrap .text_typing p {
+    color: #fff;
+    font-size: 24px;
+    font-family: "Montserrat";
+}
+
+.animation_text_word {
+    font-weight: 600;
+    line-height: 1;
+    font-family: "Montserrat";
+}
+
+.about_wrap .animation_text_word {
+    color: #E3872D;
+}

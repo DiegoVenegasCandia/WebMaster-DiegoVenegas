@@ -107,17 +107,6 @@
         height: 100px;
         animation: latir infinite 3s linear;
     }
-    /* background-position: 0% 0%;
-    background-size: 100px;
-    background-repeat: no-repeat;
-    background-image: url("../img/letrad.JPG");
-    display: block;
-    height: 100px;
-    margin: 0% 0% 0% 30%;
-    visibility: visible;
-    transform: translate3d(0px, 0px, 0px);
-    -webkit-animation: border-box;
-    animation: latir infinite 3s linear; */
     
     @keyframes latir {
         0% {
