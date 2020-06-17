@@ -102,24 +102,22 @@
         box-sizing: border-box;
         /* Opera/IE 8+ */
     }
-    /* .leftpart_wrap .logo_wrap img {
-        height: 100px;
-        animation: latir infinite 3s linear;
-    } */
     
     .leftpart_wrap .logo_wrap img {
-        background-position: 0% 0%;
-        background-size: 100px;
-        background-repeat: no-repeat;
-        background-image: url("../img/letrad.JPG");
-        display: block;
         height: 100px;
-        margin: 0% 0% 0% 30%;
-        visibility: visible;
-        transform: translate3d(0px, 0px, 0px);
-        -webkit-animation: border-box;
         animation: latir infinite 3s linear;
     }
+    /* background-position: 0% 0%;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-image: url("../img/letrad.JPG");
+    display: block;
+    height: 100px;
+    margin: 0% 0% 0% 30%;
+    visibility: visible;
+    transform: translate3d(0px, 0px, 0px);
+    -webkit-animation: border-box;
+    animation: latir infinite 3s linear; */
     
     @keyframes latir {
         0% {
@@ -230,4 +228,28 @@
         /* Firefox, other Gecko */
         box-sizing: border-box;
         /* Opera/IE 8+ */
+    }
+    
+    .leftpart_wrap .leftpart_bottom .social_wrap ul {
+        margin: 0px;
+        list-style-type: none;
+    }
+    
+    .leftpart_wrap .leftpart_bottom .social_wrap ul li {
+        margin: 0px 10px 0px 0px;
+        display: inline-block;
+    }
+    
+    .leftpart_wrap .leftpart_bottom .social_wrap ul li:last-child {
+        margin-right: 0px;
+    }
+    
+    .leftpart_wrap .leftpart_bottom .social_wrap ul li a {
+        text-decoration: none;
+        color: #fff;
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+        -ms-transition: all .3s ease;
+        -o-transition: all .3s ease;
+        transition: all .3s ease;
     }
