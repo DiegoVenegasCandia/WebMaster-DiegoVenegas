@@ -206,7 +206,7 @@
 }
 
 .header_wrap .image_wrap img {
-    border-radius: 100%;
+    /* border-radius: 100%;
     background-position: 0% 0%;
     background-size: 100px;
     background-repeat: no-repeat;
@@ -216,12 +216,12 @@
     height: 250px;
     width: 250px;
     margin: 0% 0% 0% 0%;
-    visibility: visible;
-    /* background-image: url("../img/DiegoVenegas.jpg");
+    visibility: visible; */
+    background-image: url("../img/DiegoVenegas.jpg");
     border-radius: 100%;
     border: 8px solid rgba(255, 255, 255, .5);
     height: 250px;
-    width: 250px; */
+    width: 250px;
 }
 
 .header_wrap .name_holder h2 {
