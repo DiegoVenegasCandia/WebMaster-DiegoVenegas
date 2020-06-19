@@ -78,7 +78,7 @@ window.addEventListener('load', () => {
 
 
         $('#scroll_sobre_mi').on('click', function() {
-            $('html,body').animate({ scrollTop: 1250 }, 1000);
+            $('html,body').animate({ scrollTop: 935 }, 1000);
         });
 
     }
