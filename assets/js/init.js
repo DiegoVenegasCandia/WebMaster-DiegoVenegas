@@ -1,12 +1,30 @@
 "use strict";
 
-
-
 window.addEventListener('load', () => {
 
 
     let pie_pagina = document.querySelector(".pie_pagina");
     let span_pie_pagina = document.querySelector(".spp");
+
+    // function cargaPagina() {
+
+    //     // var pantalla = document.querySelector("body");
+
+    //     // var pStyle = pantalla.style;
+
+    //     var tiempo;
+
+    //     tiempo = setTimeout(() => {
+
+    //         $("body").animate({
+    //             opacity: "1",
+    //             transition: "all 500ms",
+    //             background: "whitesmoke"
+    //         });
+
+    //     }, 1000);
+    // }
+
 
     function mostrarPiePagina() {
 
@@ -61,7 +79,7 @@ window.addEventListener('load', () => {
         });
 
     }
-
+    // cargaPagina();
     animate_text();
     mostrarPiePagina();
     menuScroll();
