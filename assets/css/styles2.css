@@ -1,0 +1,194 @@
+@media(max-width: 2560px) {}
+
+@media(max-width: 1990px) {}
+
+@media(max-width: 1690px) {
+    .menu_list ul {
+        margin-left: 10%;
+        transition: all 500ms;
+    }
+    #logo img {
+        -moz-transition: all 500ms ease;
+        -ms-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+    #sidebar {
+        -moz-transition: all 500ms ease;
+        -ms-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+    .menu_list {
+        display: block;
+        -moz-transition: all 500ms ease;
+        -ms-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+    .cabecera_cuerpo {
+        -moz-transition: all 500ms ease;
+        -ms-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+}
+
+@media(max-width: 1441px),
+(max-width: 1541px),
+(max-width: 1641px),
+(max-width: 1741px),
+(max-width: 1841px) {
+    #logo img {
+        -moz-transition: all 500ms ease;
+        -ms-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+    #sidebar {
+        -moz-transition: all 500ms ease;
+        -ms-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+    .menu_list {
+        display: block;
+        -moz-transition: all 500ms ease;
+        -ms-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+    .contenido_foto .difuminado_foto,
+    .contenido_foto,
+    .contenido_foto .difuminado_foto {
+        height: 100vh;
+    }
+    .cabecera_cuerpo {
+        -moz-transition: all 500ms ease;
+        -ms-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+    .sobre_mi .header_sobre_mi h3 {
+        font-size: 50px;
+    }
+    .sobre_mi .header_sobre_mi span {
+        font-size: 20px;
+    }
+    .sobre_mi .body_sobre_mi p {
+        padding: 20px 20px 20px 20px;
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 1440px) {
+    #logo img {
+        margin-top: 10%;
+    }
+    #sidebar {
+        width: 100%;
+        border-bottom: 1px solid #ccc;
+        background: #041230;
+        position: inherit;
+        display: block;
+        z-index: 3;
+        -moz-transition: all 500ms ease;
+        -ms-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+    .contenido_foto .difuminado_foto,
+    .contenido_foto,
+    .contenido_foto .difuminado_foto,
+    .cabecera_cuerpo {
+        height: 150vh;
+    }
+    .cabecera_cuerpo {
+        margin-left: 0%;
+        -moz-transition: all 500ms ease;
+        -ms-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+    .first_part {
+        width: 100%;
+        margin-bottom: 0%;
+        border-bottom: 1px solid #ccc;
+        padding-top: 0px;
+        -moz-transition: all 500ms ease;
+        -ms-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+    .menu_list {
+        display: none;
+        -moz-transition: all 500ms ease;
+        -ms-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+    .sobre_mi .header_sobre_mi h3 {
+        font-size: 35px;
+    }
+    .sobre_mi .header_sobre_mi span {
+        font-size: 16px;
+    }
+    .sobre_mi .body_sobre_mi p {
+        font-size: 15px;
+    }
+}
+
+@media(max-height: 851px),
+(max-height: 950px) {
+    .contenido_foto .difuminado_foto .foto img {
+        border: 6px solid gray;
+        margin-top: 10%;
+        width: 300px;
+        height: 300px;
+        margin-bottom: 30px;
+        transition: all 500ms;
+    }
+    .contenido_foto .difuminado_foto span {
+        font-size: 50px;
+        transition: all 500ms;
+    }
+    .contenido_foto .difuminado_foto h3 {
+        font-size: 50px;
+        transition: all 500ms;
+    }
+    .contenido_foto .difuminado_foto p {
+        font-size: 50px;
+        transition: all 500ms;
+    }
+    .contenido_foto .difuminado_foto span {
+        font-size: 40px;
+        transition: all 500ms;
+    }
+}
+
+@media(max-height: 850px) {
+    .contenido_foto .difuminado_foto .foto img {
+        border: 4px solid gray;
+        margin-top: 10%;
+        width: 200px;
+        height: 200px;
+        margin-bottom: 30px;
+        transition: all 500ms;
+    }
+    .contenido_foto .difuminado_foto span {
+        font-size: 40px;
+        transition: all 500ms;
+    }
+    .contenido_foto .difuminado_foto h3 {
+        font-size: 40px;
+        transition: all 500ms;
+    }
+    .contenido_foto .difuminado_foto p {
+        font-size: 40px;
+        transition: all 500ms;
+    }
+    .contenido_foto .difuminado_foto span {
+        font-size: 30px;
+        transition: all 500ms;
+    }
+}

@@ -2,9 +2,11 @@
 
 window.addEventListener('load', () => {
 
+    console.log("Ancho:" + screen.width + " Largo: " + screen.height);
+
 
     let pie_pagina = document.querySelector(".pie_pagina");
-    let span_pie_pagina = document.querySelector(".spp");
+    let spp = document.querySelector(".spp");
 
     // function cargaPagina() {
 
@@ -34,22 +36,22 @@ window.addEventListener('load', () => {
         console.log(scrollTopd);
 
         var pieStyle = pie_pagina.style;
-        var spanPiePagina = span_pie_pagina.style;
+        var spanPiePagina = spp.style;
 
         let altura = pie_pagina.offsetTop;
-        if (scrollTopd >= 700) {
+        if (scrollTopd >= 1900) {
 
             pieStyle.opacity = 1;
-            span_pie_pagina.style.opacity = 1;
+            spanPiePagina.opacity = 1;
 
             console.log(altura);
             console.log(scrollTopd);
         }
 
-        if (scrollTopd <= 699) {
+        if (scrollTopd <= 1890) {
 
             pieStyle.opacity = 0;
-            span_pie_pagina.style.opacity = 0;
+            spanPiePagina.opacity = 0;
         }
 
     }
@@ -74,8 +76,9 @@ window.addEventListener('load', () => {
             $('html,body').animate({ scrollTop: 0 }, 1000);
         });
 
+
         $('#scroll_sobre_mi').on('click', function() {
-            $('html,body').animate({ scrollTop: 2000 }, 1000);
+            $('html,body').animate({ scrollTop: 1250 }, 1000);
         });
 
     }
