@@ -1,5 +1,6 @@
 "use strict";
 
+
 window.addEventListener('load', () => {
 
     console.log("Ancho:" + screen.width + " Largo: " + screen.height);
@@ -82,6 +83,31 @@ window.addEventListener('load', () => {
         });
 
     }
+
+
+    function preloader() {
+
+        var preloader = $(".preloader");
+        var cuerpo = $(".content");
+        var tiempo = setTimeout(() => {
+
+            clearTimeout(tiempo);
+
+            preloader.animate({ "opacity": "0" });
+            preloader.animate({ "transition": "all 500ms ease" });
+            preloader.css({ "display": "none" });
+
+            cuerpo.animate({ "opacity": "1" });
+            cuerpo.animate({ "transition": "all 500ms ease" });
+            cuerpo.css({ "display": "block" });
+
+        }, 3000);
+
+        return tiempo;
+
+    }
+
+    preloader();
     // cargaPagina();
     animate_text();
     mostrarPiePagina();
