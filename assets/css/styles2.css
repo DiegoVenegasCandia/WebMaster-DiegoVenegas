@@ -101,7 +101,8 @@
     .contenido_foto,
     .contenido_foto .difuminado_foto,
     .cabecera_cuerpo {
-        height: 150vh;
+        width: 100%;
+        height: 90vh;
     }
     .cabecera_cuerpo {
         margin-left: 0%;
@@ -160,18 +161,14 @@
         font-size: 50px;
         transition: all 500ms;
     }
-    .contenido_foto .difuminado_foto span {
-        font-size: 40px;
-        transition: all 500ms;
-    }
 }
 
 @media(max-height: 850px) {
     .contenido_foto .difuminado_foto .foto img {
         border: 4px solid gray;
         margin-top: 10%;
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
         margin-bottom: 30px;
         transition: all 500ms;
     }
@@ -180,14 +177,10 @@
         transition: all 500ms;
     }
     .contenido_foto .difuminado_foto h3 {
-        font-size: 40px;
+        font-size: 30px;
         transition: all 500ms;
     }
     .contenido_foto .difuminado_foto p {
-        font-size: 40px;
-        transition: all 500ms;
-    }
-    .contenido_foto .difuminado_foto span {
         font-size: 30px;
         transition: all 500ms;
     }

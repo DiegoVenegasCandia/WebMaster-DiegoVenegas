@@ -159,7 +159,7 @@ body {
 }
 
 .contenido_foto .difuminado_foto {
-    background-color: rgba(7, 23, 55, .6);
+    background-color: rgba(7, 23, 55, .5);
     margin-bottom: 100px;
     height: 100vh;
     letter-spacing: 1px;
